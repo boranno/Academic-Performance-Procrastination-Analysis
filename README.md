@@ -29,8 +29,6 @@ The Colab notebook:
 5. Trains Logistic Regression, Decision Tree, K-Nearest Neighbors, Naive Bayes, Random Forest, Gradient Boosting, CatBoost, and XGBoost classifiers, plus a soft-voting ensemble.
 6. Prints classification reports, compares accuracy, runs 5-fold cross-validation, and creates confusion-matrix and feature-explanation visualizations, including SHAP analyses.
 
-The output shared with this project shows the notebook's package-installation results. It does not contain model evaluation scores, so no accuracy or other performance claims are reported here. Run the notebook in Colab to generate the results.
-
 ## Run in Google Colab
 
 1. Open `Predicting_The_Performance_of_Procrastination_on_Academic_Performance.ipynb` in Google Colab.
@@ -38,6 +36,17 @@ The output shared with this project shows the notebook's package-installation re
 3. Run the cells from top to bottom and authorize the Google Drive mount when prompted.
 
 The notebook installs its dependencies in its first cells. Packages used include pandas, NumPy, scikit-learn, imbalanced-learn, CatBoost, XGBoost, Matplotlib, Seaborn, SHAP, LIME, and Graphviz.
+
+## Results
+
+The notebook output currently available contains package-installation logs only; model evaluation results have not yet been added. After running the notebook in Colab, summarize the results here:
+
+- Best-performing model and its accuracy.
+- Five-fold cross-validation mean accuracy and standard deviation.
+- Macro-averaged precision, recall, and F1-score, plus per-class results.
+- A confusion matrix or model-comparison chart, if useful.
+
+The current evaluation has the limitations described below, so present its scores as exploratory. Do not include raw survey rows or outputs that could identify respondents.
 
 ## Evaluation note
 
