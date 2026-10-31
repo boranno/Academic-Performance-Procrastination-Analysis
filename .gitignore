@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data and generated outputs
+data/
+datasets/
+outputs/
+*.csv
+*.model
+*.cbm
+
+# Kaggle credentials and local environment
+kaggle.json
+.env
+.env.*
+!.env.example
